@@ -1,0 +1,35 @@
+{
+  "name" : "e-commerce-passaro/admin",
+  "description" : "The admin controller of the e-commerce",
+  "version": "0.0.1",
+  "type":"library",
+  "homepage":"https://github.com/e-commerce-passaro/admin",
+  "time":"2017-04-26 14:54:05",
+  "license":"GPL-3.0+",
+  "authors":[{
+	"name":"Marcel Bezerra da Silva",
+	"email":"marcelbzrra@gmail.com",
+	"role":"developer"
+  }],
+  "support": {
+  	"email":"marcelbzrra@gmail.com",
+  	"issues":"https://github.com/e-commerce-passaro/admin/issues",
+  	"wiki":"https://github.com/e-commerce-passaro/admin/wiki",
+  	"source":"https://github.com/e-commerce-passaro/admin/releases"
+  },
+  "require" : {
+    "php" : ">=7.0",
+	"e-commerce-passaro/pagamento" : "0.0.1",
+	"e-commerce-passaro/compra" : "1.0.3",
+	"e-commerce-passaro/login" : "1.0.3",
+	"e-commerce-passaro/avancado-form" : "0.0.1",
+	"e-commerce-passaro/site" : "0.0.1",
+	"zendframework/zend-session" : "2.7.3"
+  },
+  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "admin" ],
+  "autoload": {
+        "psr-4": {
+            "Ecompassaro\\Admin\\": "./src/Admin"
+        }
+  }  
+}
