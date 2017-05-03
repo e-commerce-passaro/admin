@@ -8,6 +8,7 @@ use Zend\View\Model\ViewModel;
 use Ecompassaro\Notificacao\NotificacoesContainerTrait;
 use Ecompassaro\Notificacao\Notificacao;
 use Ecompassaro\Admin\ModificarViewModelInterface;
+use Ecompassaro\Admin\Usuario\Form as UsuarioForm;
 
 /**
  * Gerador da estrutura da página de administração de informações do usuário

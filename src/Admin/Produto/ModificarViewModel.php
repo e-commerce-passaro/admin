@@ -3,6 +3,7 @@ namespace Ecompassaro\Admin\Produto;
 
 use Ecompassaro\Produto\Manager as ProdutoManager;
 use Ecompassaro\Produto\Produto;
+use Ecompassaro\Admin\Produto\Form as ProdutoForm;
 use Zend\View\Model\ViewModel;
 use Ecompassaro\Notificacao\Notificacao;
 use Ecompassaro\Notificacao\NotificacoesContainerTrait;
